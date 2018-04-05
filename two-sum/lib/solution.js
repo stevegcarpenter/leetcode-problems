@@ -8,7 +8,7 @@ module.exports = (numbers, sum) => {
 
   for (let i = 0; i < numbers.length; i++) {
     if (lookup[numbers[i]] !== undefined)
-      return [lookup[numbers[i]], i]
+      return [lookup[numbers[i]], i];
     else
       lookup[sum - numbers[i]] = i;
   }
