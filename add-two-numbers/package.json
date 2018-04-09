@@ -1,0 +1,16 @@
+{
+  "name": "add-two-numbers",
+  "version": "1.0.0",
+  "description": "Add two numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Steve Carpenter",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3"
+  }
+}
